@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0
+}
+
+body{
+    max-width: 750px;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 10px
+}
+header, main, section, footer{
+    background-color: #eee;
+}
+.container {
+    font-family: cursive;
+    color: rgb(128, 111, 86);
+    margin: 10px 10px 0px 10px;
+    border-radius: 2px;
+    text-align: left;
+    height:160px; 
+    padding-top: 10px;
+    padding-bottom: 2px;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: goldenrod
+}
+img {
+    float: left;
+    border-radius: 50%;
+    display:block;
+    margin: 15px;
+}
+
+.name {
+    padding: 10px;
+    width: 100%;
+    height: 20px;
+}
+
+a {
+    padding: 15px;
+    height: 15px;
+    text-decoration: unset;
+    color: rgb(128, 111, 86);;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a:hover {
+    cursor: pointer;
+    color: rgb(155, 163, 46);
+}
+
+main {
+    box-sizing: border-box;
+    border-radius: 2px;
+    border:2px;
+    padding: 5px;
+}
+
+
+p {
+    padding: 10px;
+    list-style: disc;
+    font-family: sans-serif;
+    padding-inline-start: 300px;
+    color: rgb(128, 111, 86);
+}
+
+ul{
+    padding: 10px;
+    list-style: disc;
+    font-family: sans-serif;
+    padding-inline-start: 300px;
+    color: rgb(128, 111, 86);
+}
+
+h3{
+    padding-inline-start: 20px;
+    font-style: oblique; 
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    color: goldenrod;
+    padding-top: 5px;
+}
+div {
+    margin-bottom: 10px
+}
+
+#work  p{
+    padding-inline-start: 280px;
+    padding-top: 2px;
+}
+#work ul{
+    padding-top: 2px
+}
+
+footer {
+    border-radius: 2px;
+    border:2px;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkgoldenrod;
+    font-size: 20px;
+}
+
+/* form */
+#me {
+    padding-inline-start: 30px;
+} 
+input, textarea {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 70%;
+    margin-inline-start: 30px;
+    display: flex;
+    background: rgba(212, 190, 141, 0.877)
+}
+
+button {
+    background-color:  rgb(214, 194, 163);
+    border-radius: 20px;
+    color: #eee;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-inline-start: 50px;
+    border: 0;
+  }
+button:hover{
+    color:goldenrod;
+    cursor: pointer;
+    }
