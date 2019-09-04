@@ -10,7 +10,7 @@ body{
     margin: 0 auto;
     box-shadow: 10px
 }
-header, main, footer{
+header, main, section, footer{
     background-color: #eee;
 }
 .container {
@@ -104,3 +104,35 @@ footer {
     color: darkgoldenrod;
     font-size: 20px;
 }
+
+/* form */
+#me {
+    padding-inline-start: 30px;
+} 
+input, textarea {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 70%;
+    margin-inline-start: 30px;
+    display: flex;
+    background: rgba(212, 190, 141, 0.877)
+}
+
+button {
+    background-color:  rgb(214, 194, 163);
+    border-radius: 20px;
+    color: #eee;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-inline-start: 50px;
+    border: 0;
+  }
+button:hover{
+    color:goldenrod;
+    cursor: pointer;
+    }

@@ -100,8 +100,29 @@
             </ul>    
         </div>
     </main>
+    <section id="contact">
+        <h3 id="me">Contact Me</h3>
+        <form class="form" method="POST" onsubmit="return form_validation()" action="">
+            <div class="your_name">
+                <input type="text" id="your_name" placeholder="Enter your name" minlength="4" >
+            </div>
+            <div class="email">
+                <input type="email" placeholder="Email" id="email">
+            </div>
+            <div class="title">
+                <input placeholder="Enter you Title" type="text" id="title">
+            </div>
+            <div class="message">
+                <textarea placeholder="Enter your message here" id="message" cols="10" rows="10" minlength="20"></textarea>
+            </div>
+            <button type="submit">
+                send
+            </button>
+        </form>
+    </section>
     <footer>
         sirdesmond &copy;2019
     </footer>
+    <script src="desmond.js"></script>
 </body>
 </html>
